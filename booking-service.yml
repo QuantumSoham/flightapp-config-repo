@@ -9,7 +9,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/booking_db?createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
     username: root
-    password: ${BOOKING_DB_PASSWORD:change_me}  # set env var BOOKING_DB_PASSWORD locally
+    password: Riju@03Rai@07  # set env var BOOKING_DB_PASSWORD locally
     driver-class-name: com.mysql.cj.jdbc.Driver
     hikari:
       maximum-pool-size: 10
